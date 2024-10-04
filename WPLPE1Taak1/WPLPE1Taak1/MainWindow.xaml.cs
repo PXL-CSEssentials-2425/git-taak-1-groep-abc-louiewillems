@@ -16,9 +16,22 @@ namespace WPLPE1Taak1
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Brush mainWindowBrush;
         public MainWindow()
         {
             InitializeComponent();
+            mainWindowBrush = mainGrid.Background;
+        }
+
+        private void pxlImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainGrid.Background = new SolidColorBrush(Colors.Black);
+        }
+
+        private void pxlImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainGrid.Background = mainWindowBrush;
+
         }
     }
 }

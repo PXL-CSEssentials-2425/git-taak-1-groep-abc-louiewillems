@@ -6,10 +6,9 @@
         xmlns:local="clr-namespace:WPLPE1Taak1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FFC5C5C5">
+    <Grid x:Name="mainGrid" Background="#FFC5C5C5">
         <TextBlock HorizontalAlignment="Left" Margin="124,43,0,0" TextWrapping="Wrap" Text="KleurenPsychologie" VerticalAlignment="Top" Width="441" Height="34" FontSize="24"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="642,43,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="585,363,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="pxlImage"  HorizontalAlignment="Left" Height="100" Margin="644,26,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png" MouseEnter="pxlImage_MouseEnter" MouseLeave="pxlImage_MouseLeave"/>
 
     </Grid>
 </Window>
