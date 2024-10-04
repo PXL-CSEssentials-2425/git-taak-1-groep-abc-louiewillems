@@ -36,21 +36,25 @@ namespace WPLPE1Taak1
         private void greenButton_MouseUp(object sender, MouseButtonEventArgs e)
         {
             kleurTextblock.Text = "#008000";
+            infoTextblock.Text = "Groen is de kleur van genezing";
         }
 
         private void redButton_MouseUp(object sender, MouseButtonEventArgs e)
         {
             kleurTextblock.Text = "#FF0000";
+            infoTextblock.Text = "Rood is de kleur van warmte";
         }
 
         private void yellowButton_MouseUp(object sender, MouseButtonEventArgs e)
         {
             kleurTextblock.Text = "#FFFF00";
+            infoTextblock.Text = "Geel is de kleur van levenslust";
         }
 
         private void blueButton_MouseUp(object sender, MouseButtonEventArgs e)
         {
             kleurTextblock.Text = "#0000FF";
+            infoTextblock.Text = "Blauw is de kleur van intelligentie";
         }
     }
 }
