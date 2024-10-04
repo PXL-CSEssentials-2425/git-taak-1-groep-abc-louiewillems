@@ -8,7 +8,15 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="mainGrid" Background="#FFC5C5C5">
         <TextBlock HorizontalAlignment="Left" Margin="124,43,0,0" TextWrapping="Wrap" Text="KleurenPsychologie" VerticalAlignment="Top" Width="441" Height="34" FontSize="24"/>
-        <Image x:Name="pxlImage"  HorizontalAlignment="Left" Height="100" Margin="644,26,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png" MouseEnter="pxlImage_MouseEnter" MouseLeave="pxlImage_MouseLeave"/>
+        <Image x:Name="pxlImage"  HorizontalAlignment="Left" Height="100" Margin="644,26,0,0" VerticalAlignment="Top" Width="100" Source="/assets/images/PXL.png" MouseEnter="pxlImage_MouseEnter" MouseLeave="pxlImage_MouseLeave"/>
+        <Image x:Name="greenButton" HorizontalAlignment="Left" Height="68" Margin="101,130,0,0" VerticalAlignment="Top" Width="115" Source="/assets/images/Groen.png" MouseUp="greenButton_MouseUp"/>
+        <Image x:Name="redButton" HorizontalAlignment="Left" Height="68" Margin="258,130,0,0" VerticalAlignment="Top" Width="115" Source="/assets/images/Rood.png" MouseUp="redButton_MouseUp"/>
+        <Image x:Name="yellowButton" HorizontalAlignment="Left" Height="68" Margin="101,232,0,0" VerticalAlignment="Top" Width="115" Source="/assets/images/Geel.png" MouseUp="yellowButton_MouseUp"/>
+        <Image x:Name="blueButton" HorizontalAlignment="Left" Height="68" Margin="258,232,0,0" VerticalAlignment="Top" Width="115" Source="/assets/images/Blauw.png" MouseUp="blueButton_MouseUp"/>
+        <TextBlock x:Name="kleurTextblock" HorizontalAlignment="Left" Margin="174,328,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="26" Background="White"/>
+        <Label Content="Kleurcode" HorizontalAlignment="Left" Margin="101,328,0,0" VerticalAlignment="Top" Width="68"/>
+        <TextBlock x:Name="infoTextblock" HorizontalAlignment="Left" Margin="174,373,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="26" Background="White"/>
+        <Label Content="Informatie" HorizontalAlignment="Left" Margin="101,373,0,0" VerticalAlignment="Top" Width="68"/>
 
     </Grid>
 </Window>

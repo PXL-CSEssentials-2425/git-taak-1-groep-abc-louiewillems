@@ -31,7 +31,26 @@ namespace WPLPE1Taak1
         private void pxlImage_MouseLeave(object sender, MouseEventArgs e)
         {
             mainGrid.Background = mainWindowBrush;
+        }
 
+        private void greenButton_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            kleurTextblock.Text = "#008000";
+        }
+
+        private void redButton_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            kleurTextblock.Text = "#FF0000";
+        }
+
+        private void yellowButton_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            kleurTextblock.Text = "#FFFF00";
+        }
+
+        private void blueButton_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            kleurTextblock.Text = "#0000FF";
         }
     }
 }

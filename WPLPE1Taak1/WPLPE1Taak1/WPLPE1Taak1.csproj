@@ -9,12 +9,28 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="PXL.png" />
+    <None Remove="assets\images\Blauw.png" />
+    <None Remove="assets\images\Geel.png" />
+    <None Remove="assets\images\Groen.png" />
+    <None Remove="assets\images\PXL.png" />
+    <None Remove="assets\images\Rood.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="PXL.png">
+    <Resource Include="assets\images\Blauw.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\Geel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\Groen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\PXL.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\Rood.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
 
